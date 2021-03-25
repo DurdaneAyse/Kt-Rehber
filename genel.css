@@ -1,0 +1,168 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	
+} /* html sıfırlama */
+
+body{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	width: 100%;
+	height: auto;
+	font-family: 'Titillium Web',sans-serif;
+	font-style: normal;
+	color: white;
+	margin-bottom: 0px;
+}
+.page{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-bar{
+    height: auto;
+    width: auto;
+    padding-left: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    position: relative;
+    float: right;
+	list-style: none;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+.menu>li{
+    float: right;
+	display: block;
+	border: solid 1px black;
+	margin: 5px;
+	padding: 10px 0px 10px 0px;
+	border-radius: 8px;
+}
+.menu>li>a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 23px 20px;
+    line-height: 20px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu>li>a:hover{
+    color: #2A70B5;
+}
+.user-bar{
+    float: right;
+    margin-right: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+.user-button{
+    display: inline-block;
+    color: #fff;
+    background: #484444;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    border: solid 1px black;
+}
+.user-button:hover{
+    color: #fff;
+    background-color: #2A70B5;
+    cursor: pointer;
+}
+.cont{
+	width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #302D2D;
+    margin: 30px auto;
+}
+.clear{
+	clear: both;
+}
+.leftside{
+	float: left;
+	width: 670px;
+
+	background: #484444;
+}
+.rightside{
+	float: right;
+	width: 450px;
+	
+	background: #484444;
+}
+.search-bar{
+    width: 79%;
+    float: left;
+    background: #181818;
+    border: solid 1px #343434;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    color: #acacac;
+    font-family: 'Titillium Web',sans-serif;
+    border-radius: 8px 0 0 8px;
+    padding: 0 20px;
+    border-right: none;
+    position: relative;
+    outline: none;
+    margin-left: 15px;
+}
+.search-button{
+    width: 66px;
+    height: 38px;
+    line-height: 38px;
+    background: #2A70B5;
+    border: none;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    margin-top: 1px;
+    outline: none;
+}
+.yorum{
+    background-color: #484444; 
+    padding: 15px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 4px;
+}
+.yorum-p{
+    font-size:16px;
+    word-wrap: break-word;
+    line-height: 25px;
+}
+textarea{
+    margin-right:10px;
+    width: 90%;
+    height: 150px;
+    resize: none;
+    border-radius: 8px;
+}
+span{
+    font-weight:700;
+}
+.textt{
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.zorunlu{
+    color: #c75050;
+    margin-top: 7px;
+    font-size: 18px;
+}

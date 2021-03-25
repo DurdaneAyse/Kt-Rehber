@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	
+} /* html sıfırlama */
+.clear{
+    clear: both;
+}
+body{
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #353c41;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	width: 100%;
+	height: auto;
+	font-style: normal;
+	color: white;
+	margin-bottom: 0px;
+}
+.page{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #302D2D;
+    margin: 30px auto;
+}
+a{
+    text-decoration: none;
+}
+.kaydol{
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+.kayit-label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding-top: 5px;
+}
+.gerekli{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #c02222;
+    font-weight: normal;
+}
+.zorunlu{
+    color: #c75050;
+    margin-top: 7px;
+    font-size: 18px;
+}
+.input{
+    width: 545px;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 14px;
+}
+.kayit-cerceve{
+    width: 653px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 3px;
+    margin: auto;
+    
+}
+.button-div{
+    padding: 15px;
+    background: #e6e8eb;
+}
+.button{
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 42px;
+    padding: 0 20px;
+    background: #3e4148;
+    color: #ffffff;
+}
+.menu-bar{
+    height: auto;
+    width: auto;
+    padding-left: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+.menu{
+    position: relative;
+    float: right;
+	list-style: none;
+	padding-top: 15px;
+	padding-right: 10px;
+}
+.menu>li{
+    float: right;
+	display: block;
+	border: solid 1px black;
+	margin: 5px;
+	padding: 10px 0px 10px 0px;
+	border-radius: 8px;
+}
+.menu>li>a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    padding: 23px 20px;
+    background: url(image/xmid-nav-line.png.pagespeed.ic.eGNXhiXDOy.png) right top no-repeat;
+    line-height: 20px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.menu>li>a:hover{
+    color: #2A70B5;
+}
+.user-bar{
+    float: right;
+    margin-right: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+.user-button{
+    display: inline-block;
+    color: #fff;
+    background: #484444;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    border: solid 1px black;
+}
+.user-button:hover{
+    color: #fff;
+    background-color: #2A70B5;
+    cursor: pointer;
+}
+.cont{
+	width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #302D2D;
+    margin: 30px auto;
+}
+.clear{
+	clear: both;
+}
+.leftside{
+	float: left;
+	width: 670px;
+
+	background: #484444;
+}
+.rightside{
+	float: right;
+	width: 450px;
+	background: #484444;
+}
